@@ -6,8 +6,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 /**
- * Check Permutation: Given two strings, write a method to decide 
- * if one is a permutation of the other
+ * Question 2 - CheckPermutation
  * 
  * @author Adriano Ribeiro <adrianomsg@gmail.com>
  */

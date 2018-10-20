@@ -6,8 +6,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 /**
- * Is Unique: Implement an algorithm to determine if a string has all unique characters. 
- * What if you cannot use additional data structures?
+ * Question 1 - IsUnique
  * 
  * @author Adriano Ribeiro <adrianomsg@gmail.com>
  */
