@@ -30,6 +30,7 @@ public class IsUnique {
 	
 	@Test
 	public void test() {
+		assertFalse(IsUnique.isUnique("Adriano"));
 		assertTrue(IsUnique.isUnique("brazil"));
 		assertFalse(IsUnique.isUnique("cracking"));
 		assertFalse(IsUnique.isUnique("crackingthecodinginterview"));
