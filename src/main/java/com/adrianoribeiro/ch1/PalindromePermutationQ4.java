@@ -10,7 +10,7 @@ import org.junit.Test;
  * 
  * @author Adriano Ribeiro <adrianomsg@gmail.com>
  */
-public class PalindromePermutation {
+public class PalindromePermutationQ4 {
 
 	public static boolean apply(String text) {
 		
@@ -38,10 +38,10 @@ public class PalindromePermutation {
 	
 	@Test
 	public void test() {
-		assertTrue(PalindromePermutation.apply("Tact Coa"));
-		assertTrue(PalindromePermutation.apply("abcabc"));
-		assertTrue(PalindromePermutation.apply("abcdabc"));
-		assertFalse(PalindromePermutation.apply("abcdabcc"));
-		assertTrue(PalindromePermutation.apply("abcdabccc"));
+		assertTrue(PalindromePermutationQ4.apply("Tact Coa"));
+		assertTrue(PalindromePermutationQ4.apply("abcabc"));
+		assertTrue(PalindromePermutationQ4.apply("abcdabc"));
+		assertFalse(PalindromePermutationQ4.apply("abcdabcc"));
+		assertTrue(PalindromePermutationQ4.apply("abcdabccc"));
 	}
 }

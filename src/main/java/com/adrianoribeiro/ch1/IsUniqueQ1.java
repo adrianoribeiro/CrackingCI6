@@ -10,7 +10,7 @@ import org.junit.Test;
  * 
  * @author Adriano Ribeiro <adrianomsg@gmail.com>
  */
-public class IsUnique {
+public class IsUniqueQ1 {
 
 	public static boolean isUnique(String word) {
 		
@@ -30,9 +30,9 @@ public class IsUnique {
 	
 	@Test
 	public void test() {
-		assertFalse(IsUnique.isUnique("Adriano"));
-		assertTrue(IsUnique.isUnique("brazil"));
-		assertFalse(IsUnique.isUnique("cracking"));
-		assertFalse(IsUnique.isUnique("crackingthecodinginterview"));
+		assertFalse(IsUniqueQ1.isUnique("Adriano"));
+		assertTrue(IsUniqueQ1.isUnique("brazil"));
+		assertFalse(IsUniqueQ1.isUnique("cracking"));
+		assertFalse(IsUniqueQ1.isUnique("crackingthecodinginterview"));
 	}
 }

@@ -10,7 +10,7 @@ import org.junit.Test;
  * 
  * @author Adriano Ribeiro <adrianomsg@gmail.com>
  */
-public class CheckPermutation {
+public class CheckPermutationQ2 {
 
 	public static boolean checkPermutation(String t1, String t2) {
 		
@@ -34,10 +34,10 @@ public class CheckPermutation {
 	
 	@Test
 	public void test() {
-		assertTrue(CheckPermutation.checkPermutation("brazil", "rabzli"));
-		assertFalse(CheckPermutation.checkPermutation("cracking", "crackingg"));
-		assertFalse(CheckPermutation.checkPermutation("crackingg", "cracking"));
-		assertTrue(CheckPermutation.checkPermutation("crackingthecodinginterview", "crackingthecodinginterview"));
-		assertFalse(CheckPermutation.checkPermutation("drackingthecodinginterview", "crackingthecodinginterview"));
+		assertTrue(CheckPermutationQ2.checkPermutation("brazil", "rabzli"));
+		assertFalse(CheckPermutationQ2.checkPermutation("cracking", "crackingg"));
+		assertFalse(CheckPermutationQ2.checkPermutation("crackingg", "cracking"));
+		assertTrue(CheckPermutationQ2.checkPermutation("crackingthecodinginterview", "crackingthecodinginterview"));
+		assertFalse(CheckPermutationQ2.checkPermutation("drackingthecodinginterview", "crackingthecodinginterview"));
 	}
 }

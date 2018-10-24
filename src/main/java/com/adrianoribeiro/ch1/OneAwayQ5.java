@@ -10,7 +10,7 @@ import org.junit.Test;
  * 
  * @author Adriano Ribeiro <adrianomsg@gmail.com>
  */
-public class OneAway {
+public class OneAwayQ5 {
 
 	public static boolean check(String w1, String w2) {
 

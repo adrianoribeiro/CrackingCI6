@@ -9,7 +9,7 @@ import org.junit.Test;
  * 
  * @author Adriano Ribeiro <adrianomsg@gmail.com>
  */
-public class URLifySolution2 {
+public class URLifyQ3Solution2 {
 
 	public static String apply(String text) {
 		
@@ -40,8 +40,8 @@ public class URLifySolution2 {
 	
 	@Test
 	public void test() {
-		assertEquals("ab%20c", URLifySolution2.apply("ab c"));
-		assertEquals("Mr%20John%20Smith", URLifySolution2.apply("Mr John Smith   "));
-		assertEquals("Cracking%20the%20Coding%20Interview", URLifySolution2.apply("Cracking the Coding Interview"));
+		assertEquals("ab%20c", URLifyQ3Solution2.apply("ab c"));
+		assertEquals("Mr%20John%20Smith", URLifyQ3Solution2.apply("Mr John Smith   "));
+		assertEquals("Cracking%20the%20Coding%20Interview", URLifyQ3Solution2.apply("Cracking the Coding Interview"));
 	}
 }
